@@ -1,0 +1,25 @@
+.main-color {
+    color: #5F9EA0 !important;
+}
+
+.secondary-color{
+    color: #EBF2E8 !important;
+}
+
+.light-gray {
+    color: #D3D3D3;
+}
+
+.dark-gray {
+    color: #808080;
+}
+
+.custom-button {
+    background-color: #008B8B!important;
+    border: none;
+}
+
+.custom-button:hover {
+    border: none;
+    background-color: #5F9EA0 !important;
+}
