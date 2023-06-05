@@ -1,17 +1,17 @@
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
+<button type="button" class="btn btn-primary custom-button" data-bs-toggle="modal" data-bs-target="#animais">
+  Cadastrar
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="animais" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="px-4 pt-4">
         <div class="row">
             <div class="col-md-11">
-                <h1 class="modal-title fs-5 text-center main-color" id="exampleModalLabel">Cadastre-se</h1>
+                <h1 class="modal-title fs-5 text-center main-color" id="exampleModalLabel">Cadastro de Animais</h1>
             </div>
             <div class="col-md-1">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -34,7 +34,7 @@
                 <input type="password" class="form-control light-gray" id="senha" name="senha" placeholder="Insira sua senha">
             </div>
             <div class="mb-3">
-                <label for="confirmacao_senha" class="form-label dark-gray">Confirmação de senha</label>
+                <label for="confirmacao_senha" class="form-label dark-gray">Confirmação de Senha</label>
                 <input type="password" class="form-control light-gray" id="confirmacao_senha" name="confirmacao_senha" placeholder="Confirme sua senha">
             </div>
             <div class="mb-3">

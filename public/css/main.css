@@ -1,9 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .main-color {
     color: #5F9EA0 !important;
 }
-
-.secondary-color{
-    color: #EBF2E8 !important;
+.sec-color {
+    color: #008B8B !important;
 }
 
 .light-gray {
@@ -22,4 +25,26 @@
 .custom-button:hover {
     border: none;
     background-color: #5F9EA0 !important;
+}
+
+.txt-weight-1 {
+    font-weight: 500;
+}
+
+.modal-body::-webkit-scrollbar {
+      width: 5px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+      border-radius: 10px;
+}
+     
+.modal-body::-webkit-scrollbar-thumb {
+      background: #5F9EA0; 
+      border-radius: 5px;
+}
+
+.modal-body {
+    margin-bottom: 10px;
 }

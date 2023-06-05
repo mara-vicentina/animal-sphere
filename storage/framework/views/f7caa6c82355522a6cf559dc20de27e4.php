@@ -11,4 +11,6 @@
     <link rel="shortcut icon" type="image/png" href="<?php echo e(asset('public/img/teste.png')); ?>"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="public/css/main.css" rel="stylesheet" />
+    <link href="public/css/sidebar.css" rel="stylesheet" />
+    <link href="public/css/listagem.css" rel="stylesheet" />
 </head><?php /**PATH C:\xampp\htdocs\animal-sphere\resources\views/head.blade.php ENDPATH**/ ?>

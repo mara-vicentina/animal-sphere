@@ -1,11 +1,11 @@
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#usuarios">
+  Cadastrar
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="usuarios" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="px-4 pt-4">
@@ -20,7 +20,7 @@
       </div>
       <div class="modal-body px-4">
         <form>
-            <input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
+            <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="mb-3">
                 <label for="nome_completo" class="form-label dark-gray">Nome Completo</label>
                 <input type="text" class="form-control light-gray" id="nome_completo" name="nome_completo" placeholder="Insira seu nome completo">
@@ -50,4 +50,3 @@
   </div>
 </div>
 
-<?php /**PATH C:\xampp\htdocs\animal-sphere\resources\views/pages/cadastrar/cadastro-usuarios.blade.php ENDPATH**/ ?>

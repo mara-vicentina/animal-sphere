@@ -1,0 +1,17 @@
+.edit-info {
+    stroke: #5F9EA0;
+}
+
+.delete-info {
+    stroke: #eb3a3a;
+}
+
+.title-head {
+    font-size: 0.9rem;
+    color: #008B8B!important;
+}
+
+.subtitle-list {
+    font-size: 0.8rem;
+    color: #4c4a4a!important;
+}

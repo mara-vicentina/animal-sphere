@@ -9,6 +9,6 @@ class UsuarioController extends Controller
 {
     public function index()
     {
-        return view('template');
+        return view('pages/clientes/index');
     }
 }
