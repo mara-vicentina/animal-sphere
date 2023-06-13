@@ -18,3 +18,9 @@
   color: #5F9EA0!important;
   box-shadow: 0 0 10px 1px #4a7c7e;
 }
+
+.active-sidebar {
+  background-color: #EBF2E8;
+  color: #5F9EA0!important;
+  box-shadow: 0 0 10px 1px #4a7c7e;
+}

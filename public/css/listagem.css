@@ -15,3 +15,13 @@
     font-size: 0.8rem;
     color: #4c4a4a!important;
 }
+
+@media (max-width: 986px) {
+	.title-head {
+        font-size: 0.8rem;
+    }
+    
+    .subtitle-list {
+        font-size: 0.7rem;
+    }
+}

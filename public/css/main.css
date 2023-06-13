@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    /* overflow: hidden; */
 }
 
 .main-color {
@@ -9,12 +10,24 @@ body {
     color: #008B8B !important;
 }
 
+.bg-main-color {
+    background-color: #5F9EA0 !important;
+}
+
+.bg-sec-color {
+    background-color: #008B8B !important;
+}
+
 .light-gray {
-    color: #D3D3D3;
+    color: #767272;
+}
+
+.mid-gray {
+    color: #4c4a4a !important;
 }
 
 .dark-gray {
-    color: #808080;
+    color: #383636;
 }
 
 .custom-button {
@@ -25,6 +38,17 @@ body {
 .custom-button:hover {
     border: none;
     background-color: #5F9EA0 !important;
+}
+
+.custom-button-main {
+    border: 1px solid #5F9EA0!important;
+    background-color: #faf6f6 !important;
+    color: #5F9EA0;
+}
+
+.custom-button-main:hover {
+    background-color: #e6f1f1 !important;
+    color: #5F9EA0;
 }
 
 .txt-weight-1 {
