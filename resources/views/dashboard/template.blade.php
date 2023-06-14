@@ -4,12 +4,12 @@
     @include('head')
 
     <body>
-        <div class="container-fluid g-0">
+        <div class="container-fluid g-0 overflow-hidden">
             <div class="row g-0">
-                <div class="col-md-4 col-lg-3 col-xs-4 col-sm-4">
+                <div class="col-md-4 col-lg-3 col-xs-4 col-sm-4 custom-height">
                     @include('dashboard/sidebar/sidebar')
                 </div>
-                <div class="col-md-8 col-lg-9 col-xs-8 col-sm-8">
+                <div class="col-md-8 col-lg-9 col-xs-8 col-sm-8 custom-height">
                     <div class="row flex-nowrap g-0 bg-light w-100">
                         <div class="col-12">
                             <div class="min-vh-100 d-flex flex-column">
@@ -21,6 +21,7 @@
                                     </div>
                             
                                     @yield('page-content')
+
                                 </div>
                             </div>
                         </div>

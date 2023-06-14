@@ -9,15 +9,14 @@
         <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Início</a>
+              <a class="nav-link main-color custom-lp-menu" href="#">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#functionalities">Funcionalidaes</a>
+              <a class="nav-link main-color custom-lp-menu" href="#functionalities">Funcionalidaes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contato</a>
+              <a class="nav-link main-color custom-lp-menu" href="#contact">Contato</a>
             </li>
-            
           </ul>
         </div>
           <button type="button" class="btn btn-primary custom-button-main mx-2 px-4 d-inline-block" data-bs-toggle="modal" data-bs-target="#modal-login">

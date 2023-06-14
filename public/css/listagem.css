@@ -16,12 +16,31 @@
     color: #4c4a4a!important;
 }
 
-@media (max-width: 986px) {
+.custom-card {
+    height: 400px;
+}
+
+.card::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.card::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+   
+.card::-webkit-scrollbar-thumb {
+    background: #5F9EA0; 
+    border-radius: 5px;
+}
+
+@media (max-width: 1400px) {
 	.title-head {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     
     .subtitle-list {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 }

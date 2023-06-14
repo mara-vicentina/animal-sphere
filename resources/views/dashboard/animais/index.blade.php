@@ -3,12 +3,12 @@
 @section('page-content')
 <div class="card m-5 shadow">
     <div class="row">
-        <div class="col-md-10 col-sm-8">
+        <div class="col-md-10 col-sm-7">
             <div class="card-body fs-5 mid-gray">
                 Animais
             </div>
         </div>
-        <div class="col-md-2 col-sm-4">
+        <div class="col-md-2 col-sm-5">
             <div class="card-body fs-5">
                 <button type="button" class="btn btn-primary custom-button" data-bs-toggle="modal" data-bs-target="#animais">
                 <i data-feather="plus" style="width:19px; height:19px;"></i>    
@@ -18,7 +18,7 @@
         </div>
     </div>
 </div>
-<div class="card mx-5 p-2 shadow">
+<div class="card mx-5 p-2 shadow overflow-auto custom-card">
     <div class="row">
         <div class="col-md-12 col-sm-12">
             <table class="table">

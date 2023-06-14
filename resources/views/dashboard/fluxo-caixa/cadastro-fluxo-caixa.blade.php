@@ -5,7 +5,7 @@
       <div class="px-4 pt-4">
         <div class="row">
             <div class="col-md-11">
-                <h1 class="modal-title fs-4 text-center sec-color"">Cadastro de Cliente</h1>
+                <h1 class="modal-title fs-4 text-center sec-color"">Novo Registro</h1>
             </div>
             <div class="col-md-1">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -50,6 +50,10 @@
                     </div>
                 </div>
             </div>
+
+            @include('alerts/error-message')
+            @include('alerts/error-validation')
+            
             <div class="mt-3 mb-3">
                 <button type="submit" class="btn btn-primary form-control custom-button">Cadastrar</button>
             </div>

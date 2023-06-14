@@ -24,3 +24,9 @@
   color: #5F9EA0!important;
   box-shadow: 0 0 10px 1px #4a7c7e;
 }
+
+@media (max-width: 700px) {
+	.custom-title-sidebar {
+    font-size: 0.9rem !important;
+  }
+}

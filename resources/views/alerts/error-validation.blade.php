@@ -1,9 +1,7 @@
 @if(count($errors) > 0)
 <div>
-  <ul>
-    @foreach($errors->all() as $error)
-      <li class="text-danger">{!! $error !!}</li>
-    @endforeach
-  </ul>
+  @foreach($errors->all() as $error)
+    <p class="text-danger d-block">{!! $error !!}</p>
+  @endforeach
 </div>
 @endif

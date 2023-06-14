@@ -86,6 +86,10 @@
                     </div>
                 </div>
             </div>
+
+            @include('alerts/error-message')
+            @include('alerts/error-validation')
+            
             <div class="mt-3 mb-3">
                 <button type="submit" class="btn btn-primary form-control custom-button">Salvar Dados</button>
             </div>

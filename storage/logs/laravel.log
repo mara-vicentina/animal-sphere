@@ -939,3 +939,106 @@
 #43 C:\\xampp\\htdocs\\animal-sphere\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #44 {main}
 "} 
+[2023-06-14 14:34:26] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'teste nome',
+  'data' => '2023-06-02',
+  'tipo' => '1',
+  'valor' => '550',
+)  
+[2023-06-14 14:34:48] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'teste nome',
+  'data' => '2023-06-03',
+  'tipo' => '1',
+  'valor' => '550.00',
+)  
+[2023-06-14 14:34:48] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'teste nome',
+  'data' => '2023-06-03',
+  'tipo' => '1',
+  'valor' => '550.00',
+)  
+[2023-06-14 17:14:11] local.INFO: dados {"_token":"tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP","_method":"PUT","animal_id":"1","nome_animal":"Phyo","especie":"Felina","raca":"Angorá","sexo":"0","animal_castrado":"0","cliente_id":"8","data_nascimento":"2022-01-13"} 
+[2023-06-14 17:14:33] local.INFO: dados {"_token":"tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP","_method":"PUT","animal_id":"2","nome_animal":"Sophya","especie":"Felina","raca":"Angorá","sexo":"1","animal_castrado":"1","cliente_id":"3","data_nascimento":"2023-01-27"} 
+[2023-06-14 17:15:04] local.INFO: dados {"_token":"tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP","_method":"PUT","animal_id":"3","nome_animal":"Pipoca","especie":"Felina","raca":"Persa","sexo":"0","animal_castrado":"1","cliente_id":"3","data_nascimento":"2022-07-14"} 
+[2023-06-14 17:15:15] local.INFO: dados {"_token":"tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP","_method":"PUT","animal_id":"3","nome_animal":"Pipoca","especie":"Canina","raca":"Persa","sexo":"0","animal_castrado":"1","cliente_id":"3","data_nascimento":"2022-07-14"} 
+[2023-06-14 17:16:49] local.INFO: dados {"_token":"tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP","_method":"PUT","animal_id":"3","nome_animal":"Pipoca","especie":"Canina","raca":"Yorkshire Terrier","sexo":"1","animal_castrado":"1","cliente_id":"3","data_nascimento":"2022-07-14"} 
+[2023-06-14 17:22:55] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Conta de Energia',
+  'data' => '2023-06-01',
+  'tipo' => '0',
+  'valor' => '290.00',
+)  
+[2023-06-14 17:22:55] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Conta de Energia',
+  'data' => '2023-06-01',
+  'tipo' => '0',
+  'valor' => '290.00',
+)  
+[2023-06-14 17:24:07] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Consulta Phyo',
+  'data' => '2023-06-06',
+  'tipo' => '1',
+  'valor' => '300.00',
+)  
+[2023-06-14 17:24:07] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Consulta Phyo',
+  'data' => '2023-06-06',
+  'tipo' => '1',
+  'valor' => '300.00',
+)  
+[2023-06-14 17:24:38] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Consulta Sophya',
+  'data' => '2023-06-10',
+  'tipo' => '1',
+  'valor' => '900.00',
+)  
+[2023-06-14 17:24:38] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Consulta Sophya',
+  'data' => '2023-06-10',
+  'tipo' => '1',
+  'valor' => '900.00',
+)  
+[2023-06-14 17:24:58] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Conta de Internet',
+  'data' => NULL,
+  'tipo' => '0',
+  'valor' => '200.00',
+)  
+[2023-06-14 17:26:31] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Compra de Equipamentos',
+  'data' => '2023-06-12',
+  'tipo' => '0',
+  'valor' => '1200.00',
+)  
+[2023-06-14 17:26:32] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Compra de Equipamentos',
+  'data' => '2023-06-12',
+  'tipo' => '0',
+  'valor' => '1200.00',
+)  
+[2023-06-14 17:27:24] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Consulta',
+  'data' => '2023-06-13',
+  'tipo' => '1',
+  'valor' => '500.00',
+)  
+[2023-06-14 17:27:24] local.INFO: array (
+  '_token' => 'tjkE9lCNDUZMAhNnPPlncxAbcds1WNgehHf2LFsP',
+  'nome' => 'Consulta',
+  'data' => '2023-06-13',
+  'tipo' => '1',
+  'valor' => '500.00',
+)  

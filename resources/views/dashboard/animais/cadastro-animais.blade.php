@@ -62,6 +62,10 @@
                 <label class="form-label dark-gray">Data de Nascimento</label>
                 <input type="date" class="form-control light-gray" name="data_nascimento" placeholder="Insira a espécie">
             </div>
+            
+            @include('alerts/error-message')
+            @include('alerts/error-validation')
+
             <div class="mt-3 mb-3">
                 <button type="submit" class="btn btn-primary form-control custom-button">Cadastrar</button>
             </div>

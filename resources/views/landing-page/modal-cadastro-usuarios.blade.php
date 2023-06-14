@@ -37,6 +37,7 @@
                 <input type="text" pattern="^[0-9\s\(\)\-\+]{6,25}$" placeholder="Insira seu telefone" maxlength="25" class="form-control light-gray" id="telefone" name="telefone">
             </div>
 
+            @include('alerts/error-message')
             @include('alerts/error-validation')
 
             <div class="mt-3 mb-3">
