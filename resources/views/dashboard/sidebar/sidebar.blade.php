@@ -28,13 +28,13 @@
           </a>
         </li>
         <li class="nav-item py-3 py-sm-0 mt-3">
-          <a href="{{ url('dashboard/fluxo-caixa') }}" class="nav-link text-white {{ $currentPage == 'cash-flow' ? 'active-sidebar' : '' }}">
+          <a href="{{ url('dashboard/receituario') }}" class="nav-link text-white {{ $currentPage == 'prescription' ? 'active-sidebar' : '' }}">
             <i data-feather="file-text"></i>
             <span class="fs-5 ms-3 d-none d-sm-inline custom-title-sidebar">Receituário</span>
           </a>
         </li>
         <li class="nav-item py-3 py-sm-0 mt-3">
-          <a href="{{ url('dashboard/fluxo-caixa') }}" class="nav-link text-white {{ $currentPage == 'cash-flow' ? 'active-sidebar' : '' }}">
+          <a href="{{ url('dashboard/agendamentos') }}" class="nav-link text-white {{ $currentPage == 'schedules' ? 'active-sidebar' : '' }}">
             <i data-feather="calendar"></i>
             <span class="fs-5 ms-3 d-none d-sm-inline custom-title-sidebar">Agendamentos</span>
           </a>

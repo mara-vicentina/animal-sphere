@@ -5,7 +5,7 @@
       <div class="px-4 pt-4">
         <div class="row">
             <div class="col-md-11">
-                <h1 class="modal-title fs-4 text-center sec-color">Edição de Animais</h1>
+                <h1 class="modal-title fs-4 text-center sec-color">Edição de Animal</h1>
             </div>
             <div class="col-md-1">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

@@ -39,7 +39,7 @@
                 <td class="col subtitle-list text-left">
                     <div class="row">
                         <div class="col-6 p-0">
-                            <button class="btn btn-link" onclick="editFluxoCaixa({{ $fluxo_caixa->id }}, '{{ $fluxo_caixa->json_data }}')">
+                            <button id="button-edit-fluxo-caixa-{{ $fluxo_caixa->id }}" class="btn btn-link" onclick="editFluxoCaixa({{ $fluxo_caixa->id }}, '{{ $fluxo_caixa->json_data }}')">
                                 <i data-feather="edit" class="d-inline edit-info"></i>
                             </button>
                         </div>
@@ -64,17 +64,20 @@
     <div class="row">
         <div class="col-md-4 col-sm-4">
             <div class="card-body py-2">
-                <p class="title-head text-center">Entradas:</p>
+                <p class="title-head d-inline-block">Entradas:</p>
+                <p class="dark-gray d-inline-block">{{ $soma_entrada }} reais</p>
             </div>
         </div>
         <div class="col-md-4 col-sm-4">
             <div class="card-body py-2">
-                <p class="title-head text-center">Saídas:</p>
+                <p class="title-head d-inline-block">Saídas:</p>
+                <p class="dark-gray d-inline-block">{{ $soma_saida }} reais</p>
             </div>
         </div>
         <div class="col-md-4 col-sm-2">
             <div class="card-body py-2">
-                <p class="title-head text-center">Total:</p>
+                <p class="title-head d-inline-block">Total em Caixa:</p>
+                <p class="dark-gray d-inline-block">{{ $soma_total }} reais</p>
             </div>
         </div>
     </div>

@@ -1,3 +1,60 @@
+$(document).ready(function() {
+    let currentUrl = new URL(window.location.href);
+
+    let paramOpenCreateModalCliente = currentUrl.searchParams.get("open_create_modal_client");
+    let paramOpenEditModalCliente = currentUrl.searchParams.get("open_edit_modal_client");
+
+    let paramOpenCreateModalAnimal = currentUrl.searchParams.get("open_create_modal_animal");
+    let paramOpenEditModalAnimal = currentUrl.searchParams.get("open_edit_modal_animal");
+
+    let paramOpenCreateModalFluxoCaixa = currentUrl.searchParams.get("open_create_modal_fluxo_caixa");
+    let paramOpenEditModalFluxoCaixa = currentUrl.searchParams.get("open_edit_modal_fluxo_caixa");
+
+    let paramOpenCreateModalLogin = currentUrl.searchParams.get("open_create_modal_login");
+    let paramOpenCreateModalUsuario = currentUrl.searchParams.get("open_create_modal_usuario");
+
+    if (paramOpenCreateModalCliente) {
+        const modal = new bootstrap.Modal($('#clientes'), {});
+        modal.show();
+    }
+
+    if (paramOpenEditModalCliente) {
+        const button = $('#button-edit-cliente-' + paramOpenEditModalCliente);
+        button.click();
+    }
+
+    if (paramOpenCreateModalAnimal) {
+        const modal = new bootstrap.Modal($('#animais'), {});
+        modal.show();
+    }
+
+    if (paramOpenEditModalAnimal) {
+        const button = $('#button-edit-animal-' + paramOpenEditModalAnimal);
+        button.click();
+    }
+
+    if (paramOpenCreateModalFluxoCaixa) {
+        const modal = new bootstrap.Modal($('#fluxo-caixa'), {});
+        modal.show();
+    }
+
+    if (paramOpenEditModalFluxoCaixa) {
+        const button = $('#button-edit-fluxo-caixa-' + paramOpenEditModalFluxoCaixa);
+        button.click();
+    }
+
+    if (paramOpenCreateModalLogin) {
+        const modal = new bootstrap.Modal($('#modal-login'), {});
+        modal.show();
+    }
+
+    if (paramOpenCreateModalUsuario) {
+        const modal = new bootstrap.Modal($('#modal-cadastro-usuarios'), {});
+        modal.show();
+    }
+
+});
+
 function editClient(clienteId, data) {
     data = JSON.parse(data);
     $('#edicao-clientes input[name="client_id"]').val(clienteId);

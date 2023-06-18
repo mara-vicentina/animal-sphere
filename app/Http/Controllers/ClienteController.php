@@ -8,6 +8,7 @@ use Auth;
 use App\Models\Cliente;
 use App\Models\Animal;
 use Redirect;
+use Validator;
 
 class ClienteController extends Controller
 {
@@ -20,25 +21,29 @@ class ClienteController extends Controller
 
         return view('dashboard/clientes/index', [
             'currentPage' => 'client',
-            'clientes' => $clientes,
+            'clientes'    => $clientes,
         ]);
     }
 
     public function create(Request $request)
     {
-        $validated = $request->validate([
+        $validator = Validator::make($request->all(), [
             'nome_completo' => ['required', 'string'],
-            'email' => ['required', 'email'],
-            'telefone' => ['required', 'string', 'max:11'],
-            'cpf' => ['required', 'string', 'max:11'],
-            'cep' => ['required', 'string', 'max:8'],
-            'rua' => ['required', 'string'],
-            'numero' => ['required', 'numeric', 'max_digits:10'],
-            'complemento' => ['required', 'string'],
-            'bairro' => ['required', 'string'],
-            'cidade' => ['required', 'string'],
-            'estado' => ['required', 'string'],
+            'email'         => ['required', 'email'],
+            'telefone'      => ['required', 'string', 'max:11'],
+            'cpf'           => ['required', 'string', 'max:11'],
+            'cep'           => ['required', 'string', 'max:8'],
+            'rua'           => ['required', 'string'],
+            'numero'        => ['required', 'numeric', 'max_digits:10'],
+            'complemento'   => ['required', 'string'],
+            'bairro'        => ['required', 'string'],
+            'cidade'        => ['required', 'string'],
+            'estado'        => ['required', 'string'],
         ]);
+
+        if ($validator->fails()) {
+            return redirect('/dashboard/clientes?open_create_modal_client=true')->with('errors', $validator->messages());
+        };
 
         $cliente = new Cliente();
         $cliente->name          = $request->nome_completo;
@@ -60,19 +65,23 @@ class ClienteController extends Controller
 
     public function update(Request $request)
     {
-        $validated = $request->validate([
+        $validator = Validator::make($request->all(), [
             'nome_completo' => ['required', 'string'],
-            'email' => ['required', 'email'],
-            'telefone' => ['required', 'string', 'max:11'],
-            'cpf' => ['required', 'string', 'max:11'],
-            'cep' => ['required', 'string', 'max:8'],
-            'rua' => ['required', 'string'],
-            'numero' => ['required', 'numeric', 'max_digits:10'],
-            'complemento' => ['required', 'string'],
-            'bairro' => ['required', 'string'],
-            'cidade' => ['required', 'string'],
-            'estado' => ['required', 'string'],
+            'email'         => ['required', 'email'],
+            'telefone'      => ['required', 'string', 'max:11'],
+            'cpf'           => ['required', 'string', 'max:11'],
+            'cep'           => ['required', 'string', 'max:8'],
+            'rua'           => ['required', 'string'],
+            'numero'        => ['required', 'numeric', 'max_digits:10'],
+            'complemento'   => ['required', 'string'],
+            'bairro'        => ['required', 'string'],
+            'cidade'        => ['required', 'string'],
+            'estado'        => ['required', 'string'],
         ]);
+
+        if ($validator->fails()) {
+            return redirect('/dashboard/clientes?open_edit_modal_client=' . $request->client_id)->with('errors', $validator->messages());
+        };
 
         $cliente = Cliente::where('id', $request->client_id)->first();
         $cliente->name          = $request->nome_completo;

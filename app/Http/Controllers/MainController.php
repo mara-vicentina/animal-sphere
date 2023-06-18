@@ -16,4 +16,18 @@ class MainController extends Controller
     {
         return view('dashboard/animais/index');
     }
+
+    public function schedulesPage()
+    {
+        return view('dashboard/agendamentos/index', [
+            'currentPage' => 'schedules',
+        ]);
+    }
+
+    public function prescriptionPage()
+    {
+        return view('dashboard/receituario/index', [
+            'currentPage' => 'prescription',
+        ]);
+    }
 }

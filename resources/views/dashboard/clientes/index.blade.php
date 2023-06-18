@@ -49,7 +49,7 @@
                 <td class="col subtitle-list text-left">
                     <div class="row">
                         <div class="col-6 p-0">
-                            <button class="btn btn-link" onclick="editClient({{ $cliente->id }}, '{{ $cliente->json_data }}')">
+                            <button id="button-edit-cliente-{{ $cliente->id }}" class="btn btn-link" onclick="editClient({{ $cliente->id }}, '{{ $cliente->json_data }}')">
                                 <i data-feather="edit" class="d-inline edit-info"></i>
                             </button>
                         </div>

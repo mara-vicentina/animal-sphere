@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Redirect;
+use Validator;
 
 class UsuarioController extends Controller
 {
@@ -15,13 +16,17 @@ class UsuarioController extends Controller
 
     public function create(Request $request)
     {
-        $validated = $request->validate([
-            'email' => ['required', 'email'],
-            'senha' => ['required'],
+        $validator = Validator::make($request->all(), [
+            'email'             => ['required', 'email'],
+            'senha'             => ['required'],
             'confirmacao_senha' => ['required', 'same:senha'],
-            'telefone' => ['required', 'numeric', 'max_digits:11'],
-            'nome_completo' => ['required', 'string'],
+            'telefone'          => ['required', 'numeric', 'max_digits:11'],
+            'nome_completo'     => ['required', 'string'],
         ]);
+
+        if ($validator->fails()) {
+            return redirect('/?open_create_modal_usuario=true')->with('errors', $validator->messages());
+        };
 
         $usuario = new User();
         $usuario->name          = $request->nome_completo;

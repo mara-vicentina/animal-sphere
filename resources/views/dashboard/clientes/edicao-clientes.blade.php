@@ -41,17 +41,21 @@
             </div>
             <div class="mb-3">
                 <h2 class="fs-5 sec-color">Endereço</h2>
-                <label class="form-label dark-gray">CEP</label>
-                <input type="text" class="form-control light-gray" name="cep" placeholder="Insira seu CEP">
             </div>
             <div class="row">
-                <div class="col-7">
+                <div class="col-4">
+                    <div class="mb-3">
+                        <label class="form-label dark-gray">CEP</label>
+                        <input type="text" class="form-control light-gray" name="cep" placeholder="Insira seu CEP">
+                    </div>
+                </div>
+                <div class="col-4">
                     <div class="mb-3">
                         <label class="form-label dark-gray">Rua</label>
                         <input type="text" class="form-control light-gray" name="rua" placeholder="Insira sua rua">
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="col-4">
                     <div class="mb-3">
                         <label class="form-label dark-gray">Número</label>
                         <input type="text" class="form-control light-gray" name="numero" placeholder="Insira seu número">

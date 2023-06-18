@@ -47,7 +47,7 @@
                         <td class="col subtitle-list text-left">
                             <div class="row">
                                 <div class="col-6 p-0">
-                                    <button class="btn btn-link d-inline-block p-0" onclick="editAnimal({{ $animal->id }}, '{{ $animal->json_data }}')">
+                                    <button id="button-edit-animal-{{ $animal->id }}" class="btn btn-link d-inline-block p-0" onclick="editAnimal({{ $animal->id }}, '{{ $animal->json_data }}')">
                                         <i data-feather="edit" class="d-inline edit-info"></i>
                                     </button>
                                 </div>
