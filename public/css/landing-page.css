@@ -1,0 +1,102 @@
+/* nav */
+.nav-img {
+    width: 200px;
+    height: auto;
+}
+
+.custom-lp-menu:hover {
+    color: #008B8B!important;
+}
+
+
+
+/* funcionalidades */
+.circle-functionalities {
+    width: 80px;
+    height: 80px;
+}
+
+.icon-functionalities {
+    transform: translateY(100%);
+}
+
+.card-functionalities:hover {
+    background-color: #008B8B;
+    box-shadow: 20px rgba(249, 246, 246, 0.05);
+    border: none;
+    -webkit-transition: all .8s ease-in-out, opacity 0.9s linear;
+}
+
+.card-functionalities:hover .circle-functionalities {
+    background-color: #ffffff!important;
+    -webkit-transition: all .8s ease-in-out, opacity 0.9s linear;
+}
+
+.card-functionalities:hover .icon-functionalities {
+    stroke: #5F9EA0!important;
+    -webkit-transition: all .8s ease-in-out, opacity 0.9s linear;
+}
+
+.card-functionalities:hover .card-title {
+    color: #ffffff!important;
+    -webkit-transition: all .8s ease-in-out, opacity 0.9s linear;
+}
+
+.card-functionalities:hover .card-text {
+    color: #ffffff!important;
+    -webkit-transition: all .8s ease-in-out, opacity 0.9s linear;
+}
+
+
+
+
+
+/* contato */
+.form-contact {
+    transform: translateX(50%);
+}
+
+.lighter-gray {
+    color: #b7b4b4;
+}
+
+.lighter-gray input{
+    color: #b7b4b4;
+}
+
+.lighter-gray input::placeholder{
+    color: #b7b4b4;
+}
+
+.text-area-contact {
+    resize: none;
+}
+
+
+
+
+/* rodapé */
+
+.text-footer {
+    color: #ffffff;
+}
+
+.icon-footer {
+    width: 18px;
+    height: 18px;
+}
+
+.card-footer {
+    padding: 20px 0;
+}
+
+.footer-img {
+    width: 240px;
+    height: auto;
+}
+
+.footer-low {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 10px;
+}
